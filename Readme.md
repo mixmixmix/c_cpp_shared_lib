@@ -6,6 +6,8 @@
 - http://stackoverflow.com/questions/199418/using-c-library-in-c-code
 
 ##How to compile:
+
+Use `compile.sh` script which does more or less that:
 ```
 $ g++ -c -Wall -Werror -fpic foo.cpp 
 $ g++ -shared -o libfoo.so foo.o 
