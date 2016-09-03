@@ -5,7 +5,9 @@
 - https://isocpp.org/wiki/faq/mixing-c-and-cpp
 - http://stackoverflow.com/questions/199418/using-c-library-in-c-code
 
-##How to compile:
+##How to compile using cmake:
+`compile-with-cmake.sh`
+##How to compile using gcc:
 
 Use `compile.sh` script which does more or less that:
 ```
