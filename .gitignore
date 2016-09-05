@@ -4,3 +4,4 @@ build/
 *.so
 test
 test_cmake
+test_opencv

@@ -17,3 +17,7 @@ $ gcc -L/home/mix/tmp -Wall -o test main.c -lfoo
 $ export LD_LIBRARY_PATH=/home/mix/tmp:$LD_LIBRARY_PATH
 $ ./test 
 ```
+
+
+##How to compile with OpenCV using cmake:
+Make sure you have opencv installed and that it maches location in CMakeLists.txt file in `srcOpenCV` directory. Build and test library using `compileOpenCv.sh`
