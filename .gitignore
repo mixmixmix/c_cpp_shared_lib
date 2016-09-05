@@ -2,4 +2,5 @@ build/
 .#*
 *.o
 *.so
-
+test
+test_cmake

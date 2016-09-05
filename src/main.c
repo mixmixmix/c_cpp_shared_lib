@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include "foo.h"
 
-void foo(void);
-float addme(float);
-float addme2(struct fstru);
+void Foo(void);
+float Multiply(float);
+float AddStruct(struct myStruct);
 
 int main (){
     printf("Starting a program...\n");
-    foo();
+    Foo();
 
-    struct fstru gg;
-    gg.a = 2;
-    gg.b = 3.3;
+    struct myStruct myNumbers;
+    myNumbers.a = 2;
+    myNumbers.b = 3.3;
 
-    float g = 3.2;
-    printf("Result is: %g\n", addme(g));
-    printf("ResultG is: %g\n", addme2(gg));
+    float num = 3.14;
+    printf("Result of multiplying %g by itself is: %g\n", num, Multiply(num));
+    printf("Result of adding together myStructure elements a and b is: %g\n", AddStruct(myNumbers));
     return 0;
 }
  

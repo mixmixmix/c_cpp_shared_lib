@@ -1,7 +1,7 @@
 #ifndef foo_h__
 #define foo_h__
 
-struct fstru {
+struct myStruct {
   int a;
   float b;
 };
@@ -11,9 +11,9 @@ struct fstru {
 extern "C" {
 #endif
 
-void foo(void);
-float addme(float);
-float addme2(struct fstru);
+void Foo(void);
+float Multiply(float);
+float AddStruct(struct myStruct);
 
 #ifdef __cplusplus
 }
